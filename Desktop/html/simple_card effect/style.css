@@ -1,0 +1,50 @@
+body{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* display: grid;
+    place-items: center; */
+    background-color: rgb(24, 21, 196);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* .container{
+    display: grid;
+    place-items: center;
+} */
+
+.card{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: aliceblue;
+    flex: 1;
+    transition: 0.3s all ease;
+}
+
+.card:hover{
+    flex: 2;
+    background-color: rgb(207, 207, 307);
+}
+
+
+.tag{
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.tag:hover{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);;
+}
